@@ -13,9 +13,8 @@ jobs:
   sayHello:
     runs-on: ubuntu-latest
     steps:
-      - name: "Step 1 of say hello"
       - uses: actions/checkout@v2
-      - name: "Step 2 of say hello"
+      - name: "Step 1 of say hello"
         run: echo "Hello world"
         shell: bash
   sayGoodBye:
